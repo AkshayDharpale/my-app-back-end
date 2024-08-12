@@ -8,7 +8,7 @@ WORKDIR /app
 VOLUME /tmp
 
 # Copy the Spring Boot application JAR file from the target directory to the container
-COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
+COPY target/My-App-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the port that the application will run on
 EXPOSE 8080
