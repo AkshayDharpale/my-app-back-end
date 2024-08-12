@@ -33,7 +33,7 @@ jobs:
           password: "akshay@9595"
 
       - name: Build and tag Docker image
-        run: docker build -t dharpaaak/my-app-front-end:latest .
+        run: docker build -t dharpaaak/my-app-front-end:latest1 .
 
       - name: Push Docker image to Docker Hub
         run: docker push dharpaaak/my-app-front-end:latest
