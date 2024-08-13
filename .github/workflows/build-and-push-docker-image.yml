@@ -36,4 +36,4 @@ jobs:
         run: docker build -t dharpaaak/my-app-front-end:V1.0 .
 
       - name: Push Docker image to Docker Hub
-        run: docker push dharpaaak/my-app-front-end:latest
+        run: docker push dharpaaak/my-app-front-end:V1.0
