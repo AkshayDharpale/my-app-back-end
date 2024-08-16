@@ -33,7 +33,7 @@ jobs:
           password: "akshay@9595"
 
       - name: Build and tag Docker image
-        run: docker build -t dharpaaak/my-app-backend-end:V1.0 .
+        run: docker build -t dharpaaak/my-app-back-end:V1.0 .
 
       - name: Push Docker image to Docker Hub
-        run: docker push dharpaaak/my-app-backend-end:V1.0
+        run: docker push dharpaaak/my-app-back-end:V1.0
